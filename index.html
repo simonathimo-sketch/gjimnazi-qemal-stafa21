@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gjimnazi Qemal Stafa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Qemal Stafa</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#ballina" class="nav-link">Ballina</a></li>
+            <li><a href="#historia" class="nav-link">Historia</a></li>
+            <li><a href="#klubet" class="nav-link">Klubet</a></li>
+            <li><a href="#aktivitetet" class="nav-link">Aktivitetet</a></li>
+            <li><a href="#mesuesit" class="nav-link">Mësuesit</a></li>
+            <li><a href="#galeria" class="nav-link">Galeria</a></li>
+            <li><a href="#orari" class="nav-link">Orari</a></li>
+            <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- BALLINA -->
+<section id="ballina" class="hero">
+    <div class="hero-content fade-in">
+        <h1>Mirëseardhje në Gjimnazin Qemal Stafa</h1>
+        <p class="slogan">"Edukimi për të ardhmen"</p>
+        <p class="welcome-text">Një institucion arsimor me traditë dhe inovacion</p>
+        <button class="cta-btn" onclick="document.getElementById('historia').scrollIntoView({behavior: 'smooth'})">Zbuloni më shumë</button>
+    </div>
+    <div class="hero-image">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%234a90e2' width='400' height='300'/%3E%3Cpath fill='%23fff' d='M50 250 L350 250 L350 100 Q175 20 50 100 Z'/%3E%3Crect fill='%23ff6b6b' x='80' y='140' width='60' height='70'/%3E%3Crect fill='%23ffd93d' x='160' y='120' width='80' height='90'/%3E%3Crect fill='%234a90e2' x='260' y='150' width='50' height='60'/%3E%3C/svg%3E" alt="Shkolla">
+    </div>
+</section>
+
+<!-- HISTORIA -->
+<section id="historia" class="historia">
+    <div class="container">
+        <h2 class="section-title">Historia e Shkollës</h2>
+        <div class="historia-content">
+            <div class="timeline">
+                <div class="timeline-item slide-in-left">
+                    <div class="timeline-date">1950</div>
+                    <div class="timeline-content">
+                        <h3>Themelimi</h3>
+                        <p>Gjimnazi Qemal Stafa themelohej si një ndër institucionet arsimore më të rëndësishëm të komunës.</p>
+                    </div>
+                </div>
+                <div class="timeline-item slide-in-right">
+                    <div class="timeline-date">1975</div>
+                    <div class="timeline-content">
+                        <h3>Zgjerimi</h3>
+                        <p>Shkolla u zgjerua me ndërtesa të reja dhe laboratorë bashkëkohore.</p>
+                    </div>
+                </div>
+                <div class="timeline-item slide-in-left">
+                    <div class="timeline-date">2000</div>
+                    <div class="timeline-content">
+                        <h3>Modernizimi</h3>
+                        <p>Futja e teknologjisë dhe infrastrukturës dixhitale në klasat shkollore.</p>
+                    </div>
+                </div>
+                <div class="timeline-item slide-in-right">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Deri Sot</h3>
+                        <p>Gjimnazi Qemal Stafa vazhdon të ofrojë arsim cilësor me program ndërkombëtar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="arritjet">
+                <h3>Arritjet Kryesore</h3>
+                <ul>
+                    <li><i class="fas fa-star"></i> Më i miri në rezultatet e provimeve kombëtare</li>
+                    <li><i class="fas fa-trophy"></i> Fitues i 15 medalje në olimpiada ndërkombëtare</li>
+                    <li><i class="fas fa-users"></i> Rreth 800 nxënës aktivë</li>
+                    <li><i class="fas fa-book"></i> Laboratorë të pajisur me teknologji të fundit</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- KLUBET -->
+<section id="klubet" class="klubet">
+    <div class="container">
+        <h2 class="section-title">Klubet e Shkollës</h2>
+        <div class="klubet-grid">
+            <div class="klub-card flip-in">
+                <div class="klub-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Klub Programimi</h3>
+                <p><strong>Çfarë bëjmë:</strong> Mësojmë Python, JavaScript, dhe zhvillim web.</p>
+                <p><strong>Orari:</strong> E mërkurë 15:00-16:30</p>
+                <p><strong>Mësuesi:</strong> Pof. Arben Xhafa</p>
+                <p><strong>Email:</strong> arben.xhafa@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="klub-card flip-in">
+                <div class="klub-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>Klub Arti</h3>
+                <p><strong>Çfarë bëjmë:</strong> Pikturë, skulpturë, dhe arte të tjera.</p>
+                <p><strong>Orari:</strong> E martë 14:00-15:30</p>
+                <p><strong>Mësuesi:</strong> Pof. Drita Gega</p>
+                <p><strong>Email:</strong> drita.gega@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="klub-card flip-in">
+                <div class="klub-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3>Klub Muzike</h3>
+                <p><strong>Çfarë bëjmë:</strong> Këndim, instrumente, dhe teori muzikore.</p>
+                <p><strong>Orari:</strong> E enjte 15:00-16:30</p>
+                <p><strong>Mësuesi:</strong> Pof. Agim Rama</p>
+                <p><strong>Email:</strong> agim.rama@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="klub-card flip-in">
+                <div class="klub-icon">
+                    <i class="fas fa-basketball"></i>
+                </div>
+                <h3>Klub Sporti</h3>
+                <p><strong>Çfarë bëjmë:</strong> Futboll, basketboll, voleiboll, dhe sport të tjera.</p>
+                <p><strong>Orari:</strong> E hënë dhe e mërkurë 16:00-17:30</p>
+                <p><strong>Mësuesi:</strong> Pof. Edi Martinaj</p>
+                <p><strong>Email:</strong> edi.martinaj@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="klub-card flip-in">
+                <div class="klub-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>Klub Debati</h3>
+                <p><strong>Çfarë bëjmë:</strong> Diskutime akademike dhe prova debati.</p>
+                <p><strong>Orari:</strong> E premte 14:00-15:30</p>
+                <p><strong>Mësuesi:</strong> Pof. Luiza Beqaj</p>
+                <p><strong>Email:</strong> luiza.beqaj@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="klub-card flip-in">
+                <div class="klub-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h3>Klub Shkence</h3>
+                <p><strong>Çfarë bëjmë:</strong> Eksperimente, pika, dhe kërkime shkencore.</p>
+                <p><strong>Orari:</strong> E diel 10:00-11:30</p>
+                <p><strong>Mësuesi:</strong> Pof. Petrit Dode</p>
+                <p><strong>Email:</strong> petrit.dode@qemalstafa.edu.al</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- AKTIVITETET -->
+<section id="aktivitetet" class="aktivitetet">
+    <div class="container">
+        <h2 class="section-title">Aktivitetet</h2>
+        <div class="calendar-section">
+            <h3>Kalendari i Aktiviteteve</h3>
+            <div id="calendar" class="calendar"></div>
+        </div>
+        <div class="aktivitetet-grid">
+            <div class="aktivitet-card bounce-in">
+                <div class="aktivitet-icon">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <h3>Ekskursione</h3>
+                <p>Udhëtime edukative në vende të rëndësishme historike dhe natyrore.</p>
+                <p class="date">Çdo muaj</p>
+            </div>
+
+            <div class="aktivitet-card bounce-in">
+                <div class="aktivitet-icon">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <h3>Olimpiada</h3>
+                <p>Gara ndërkombëtare në matematikë, fizikë, biologji dhe informatikë.</p>
+                <p class="date">Tetor - Maj</p>
+            </div>
+
+            <div class="aktivitet-card bounce-in">
+                <div class="aktivitet-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3>Koncerte</h3>
+                <p>Shfaqje muzikale dhe kulturore të realizuara nga nxënësit.</p>
+                <p class="date">Dhjetor, Maj</p>
+            </div>
+
+            <div class="aktivitet-card bounce-in">
+                <div class="aktivitet-icon">
+                    <i class="fas fa-running"></i>
+                </div>
+                <h3>Gara Sportive</h3>
+                <p>Kampionate në futboll, basketboll, voleiboll dhe atletika.</p>
+                <p class="date">Shtator - Prill</p>
+            </div>
+
+            <div class="aktivitet-card bounce-in">
+                <div class="aktivitet-icon">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <h3>Panaire Shkencore</h3>
+                <p>Prezentimi i projekteve dhe eksperimenteve shkencore.</p>
+                <p class="date">Prill</p>
+            </div>
+
+            <div class="aktivitet-card bounce-in">
+                <div class="aktivitet-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Përgatitje për Provime</h3>
+                <p>Kurse speciale dhe sesione mësimi për përgatitjen përfundimtare.</p>
+                <p class="date">Mars - Qershor</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MESUESIT -->
+<section id="mesuesit" class="mesuesit">
+    <div class="container">
+        <h2 class="section-title">Mësuesit Tanë</h2>
+        <div class="mesuesit-grid">
+            <div class="mesues-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='30' r='20' fill='%234a90e2'/%3E%3Cpath d='M20 100 Q20 60 50 60 Q80 60 80 100' fill='%234a90e2'/%3E%3C/svg%3E" alt="Mësuesi">
+                <h3>Pof. Arben Xhafa</h3>
+                <p class="lenda">Informatikë</p>
+                <p class="email"><i class="fas fa-envelope"></i> arben.xhafa@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="mesues-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='30' r='20' fill='%23e74c3c'/%3E%3Cpath d='M20 100 Q20 60 50 60 Q80 60 80 100' fill='%23e74c3c'/%3E%3C/svg%3E" alt="Mësuesi">
+                <h3>Pof. Drita Gega</h3>
+                <p class="lenda">Arti</p>
+                <p class="email"><i class="fas fa-envelope"></i> drita.gega@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="mesues-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='30' r='20' fill='%2327ae60'/%3E%3Cpath d='M20 100 Q20 60 50 60 Q80 60 80 100' fill='%2327ae60'/%3E%3C/svg%3E" alt="Mësuesi">
+                <h3>Pof. Agim Rama</h3>
+                <p class="lenda">Muzike</p>
+                <p class="email"><i class="fas fa-envelope"></i> agim.rama@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="mesues-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='30' r='20' fill='%23f39c12'/%3E%3Cpath d='M20 100 Q20 60 50 60 Q80 60 80 100' fill='%23f39c12'/%3E%3C/svg%3E" alt="Mësuesi">
+                <h3>Pof. Edi Martinaj</h3>
+                <p class="lenda">Edukimi Fizik</p>
+                <p class="email"><i class="fas fa-envelope"></i> edi.martinaj@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="mesues-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='30' r='20' fill='%239b59b6'/%3E%3Cpath d='M20 100 Q20 60 50 60 Q80 60 80 100' fill='%239b59b6'/%3E%3C/svg%3E" alt="Mësuesi">
+                <h3>Pof. Luiza Beqaj</h3>
+                <p class="lenda">Letërsi Shqipe</p>
+                <p class="email"><i class="fas fa-envelope"></i> luiza.beqaj@qemalstafa.edu.al</p>
+            </div>
+
+            <div class="mesues-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='30' r='20' fill='%231abc9c'/%3E%3Cpath d='M20 100 Q20 60 50 60 Q80 60 80 100' fill='%231abc9c'/%3E%3C/svg%3E" alt="Mësuesi">
+                <h3>Pof. Petrit Dode</h3>
+                <p class="lenda">Kimia</p>
+                <p class="email"><i class="fas fa-envelope"></i> petrit.dode@qemalstafa.edu.al</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria" class="galeria">
+    <div class="container">
+        <h2 class="section-title">Galeria Foto</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%234a90e2' width='400' height='300'/%3E%3Ctext x='50%' y='50%' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle'%3EFesta e Shkollës%3C/text%3E%3C/svg%3E" alt="Festa">
+                    <h3>Festa e Shkollës 2024</h3>
+                </div>
+                <div class="carousel-slide">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2327ae60' width='400' height='300'/%3E%3Ctext x='50%' y='50%' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle'%3EProjekte Shkencor%3C/text%3E%3C/svg%3E" alt="Projektet">
+                    <h3>Panaire Shkencore</h3>
+                </div>
+                <div class="carousel-slide">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23e74c3c' width='400' height='300'/%3E%3Ctext x='50%' y='50%' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle'%3EGara Sportive%3C/text%3E%3C/svg%3E" alt="Sporti">
+                    <h3>Kampionat Sportiv</h3>
+                </div>
+                <div class="carousel-slide">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23f39c12' width='400' height='300'/%3E%3Ctext x='50%' y='50%' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle'%3EKonçert Muzikore%3C/text%3E%3C/svg%3E" alt="Konçert">
+                    <h3>Konçert Muzikore</h3>
+                </div>
+                <div class="carousel-slide">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%239b59b6' width='400' height='300'/%3E%3Ctext x='50%' y='50%' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle'%3EEkskursione%3C/text%3E%3C/svg%3E" alt="Ekskursion">
+                    <h3>Ekskursion Edukativ</h3>
+                </div>
+            </div>
+            <button class="carousel-btn next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="carousel-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+            <span class="dot" onclick="goToSlide(4)"></span>
+        </div>
+    </div>
+</section>
+
+<!-- ORARI -->
+<section id="orari" class="orari">
+    <div class="container">
+        <h2 class="section-title">Orari i Shkollës</h2>
+        <div class="orari-content">
+            <div class="orari-table">
+                <h3>Orari i Klasave</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ora</th>
+                            <th>Klasa IX</th>
+                            <th>Klasa X</th>
+                            <th>Klasa XI</th>
+                            <th>Klasa XII</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>08:00 - 08:45</td>
+                            <td>Matematikë</td>
+                            <td>Fizikë</td>
+                            <td>Informatikë</td>
+                            <td>Kimia</td>
+                        </tr>
+                        <tr>
+                            <td>08:45 - 09:30</td>
+                            <td>Shqip</td>
+                            <td>Shqip</td>
+                            <td>Shqip</td>
+                            <td>Matematikë</td>
+                        </tr>
+                        <tr>
+                            <td>09:30 - 10:00</td>
+                            <td colspan="4" class="pauze">PAUZE</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 - 10:45</td>
+                            <td>Anglisht</td>
+                            <td>Matematikë</td>
+                            <td>Fizikë</td>
+                            <td>Fizikë</td>
+                        </tr>
+                        <tr>
+                            <td>10:45 - 11:30</td>
+                            <td>Historia</td>
+                            <td>Gjeografi</td>
+                            <td>Kimia</td>
+                            <td>Informatikë</td>
+                        </tr>
+                        <tr>
+                            <td>11:30 - 12:00</td>
+                            <td colspan="4" class="pauze">PAUZE</td>
+                        </tr>
+                        <tr>
+                            <td>12:00 - 12:45</td>
+                            <td>Biologji</td>
+                            <td>Anglisht</td>
+                            <td>Biologji</td>
+                            <td>Anglisht</td>
+                        </tr>
+                        <tr>
+                            <td>12:45 - 13:30</td>
+                            <td>Ed. Fizik</td>
+                            <td>Ed. Fizik</td>
+                            <td>Letërsi</td>
+                            <td>Gjeografi</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="important-dates">
+                <h3>Datat Zyrtare</h3>
+                <ul>
+                    <li><strong>Fillimi i vitit shkollor:</strong> 1 Shtator 2024</li>
+                    <li><strong>Dita e Arsimit:</strong> 28 Nëntor</li>
+                    <li><strong>Pushimi i dimrit:</strong> 15 Dhjetor - 8 Janar</li>
+                    <li><strong>Pushimi i pranverës:</strong> 15 Prill - 23 Prill</li>
+                    <li><strong>Provime të ndërmjetme:</strong> 15 - 26 Nëntor</li>
+                    <li><strong>Provime të përfunduara:</strong> 1 - 15 Qershor</li>
+                    <li><strong>Përfundim viti shkollor:</strong> 20 Qershor 2025</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- KONTAKT -->
+<section id="kontakt" class="kontakt">
+    <div class="container">
+        <h2 class="section-title">Kontakt</h2>
+        <div class="kontakt-content">
+            <div class="kontakt-info slide-up">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Adresa</h3>
+                    <p>Rruga Qemal Stafa, nr. 45<br>Tiranë, Shqipëri</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telefon</h3>
+                    <p>+355 4 228 5000<br>+355 4 228 5001</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@qemalstafa.edu.al<br>rektor@qemalstafa.edu.al</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Orari i Shërbimit</h3>
+                    <p>E hënë - E premte: 07:00 - 16:00<br>Të dielën: Mbyllur</p>
+                </div>
+            </div>
+
+            <div class="kontakt-form slide-up">
+                <h3>Dërgoni Mesazhin Tuaj</h3>
+                <form id="contactForm">
+                    <input type="text" placeholder="Emri juaj" required>
+                    <input type="email" placeholder="Email juaj" required>
+                    <input type="text" placeholder="Subjekti">
+                    <textarea placeholder="Mesazhi juaj" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Dërgoni</button>
+                </form>
+                <p id="formMessage" class="form-message"></p>
+            </div>
+
+            <div class="kontakt-map">
+                <h3>Harta e Lokacionit</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.6034950606825!2d19.82089!3d41.32773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135049e73e3f0001%3A0x1234567890!2sTiran%C3%AB%2C%20Albania!5e0!3m2!1sen!2sal!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Gjimnazi Qemal Stafa. Të drejtat e autorësi janë të rezervuara.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
